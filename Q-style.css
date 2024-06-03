@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#encabezado {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ff6505f1;
+    padding: 10px 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+#encabezado h1 {
+    margin: 0;
+    color: white;
+}
+
+#encabezado nav {
+    display: inline-block;
+}
+
+#encabezado nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#encabezado nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#encabezado nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#encabezado nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 90%;
+    height: 10em;
+    margin-top: 6%; 
+    margin-left: 6%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px orange solid;
+    background-color: rgba(255, 166, 0, 0.286);
+}
+
+.intro-1 {
+    width: 90%;
+    height: 10em;
+    margin-top: 1%; 
+    margin-left: 6%;
+    background-color: #f9f9f9;
+    border: 1px orange solid;
+}
+
+.conteiner {
+    
+    margin-top: 3%;
+    margin-left: 0%;
+}
+
+.izquierdo {
+    width: 9.5%;
+    height: 15%;
+    margin: 0% 0% 0% 12%;
+    border-radius: 10%;
+}
+
+.derecho {
+    width: 60%;
+    height: 8em;
+    background-color: #f9f9f9;
+    padding: 1%;
+    text-align: justify;
+    border: 1px solid orange;
+    float: inline-end;
+}
+
+.conteiner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5%;
+    border: 1px orange solid;
+}
+
+.prueba {
+    width: 10%;
+    height: 10%;
+    margin: 0% 0% 0% 45%;
+}
+
+.temperaturaCelsius {
+    position: absolute;
+    margin-top: 5%;
+    right: 63%;
+    width: 5%;
+    z-index: 10;
+}
+
+.temperaturaFahrenheit {
+    position: absolute;
+    margin-top: 8%;
+    right: 63%;
+    width: 5%;
+    z-index: 10;
+}
+
+.temperaturaKelvin {
+    position: absolute;
+    margin-top: 4%;
+    right: 63%;
+    width: 6%;
+    z-index: 10;
+}
+
+.title, .pIntro {
+    display: flex;
+    justify-content: center;
+    margin: 2% 5%;
+    text-align: justify;
+}
+
+
+
+
+.seccion1, .seccion2, .seccion3 {
+    width: 30%;
+    height: 15em;
+    margin-top: 4%; 
+    margin-left: 2.8%;
+    background-color: #f9f9f9;
+    float: inline-start;
+    text-align: justify;
+    border: 2px orange dashed;
+}
+
+
+.imgGrados {
+    width: 50%;
+    height: 30%;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+
+div {
+    margin: 0% 5%;
+}
+
+.seccion4, .seccion5, .seccion6 {
+    width: 30%;
+    height: 15em;
+    margin-top: 4%; 
+    margin-left: 2.8%;
+    background-color: #f9f9f9;
+    float: inline-start;
+    text-align: justify;
+    border: 2px orange dashed ;
+    margin-bottom: 5%;
+}
+
+.seccion5 {
+    border: none;
+}
+
+
+
+h2 {
+    margin-top: 0;
+}
+
+.input-container {
+    margin: 2% 0% 0% 18%;
+}
+
+#resultado, #resultado1, #resultado2, #resultado3, #resultado4, #resultado5 {
+    margin: 4% 0% 0% 35% ;
+    font-weight: bold;
+}
+
+input {
+    background-color: rgba(252, 227, 176, 0.525);
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: 12em;
+    background-color: #ff6505f1;
+    margin-top: 30%;
+}
+
+.cajaIconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.icono {
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
+}
+
+.textIconos {
+    position: absolute;
+    margin-top: 10%;
+    right: 60%;
+    width: 5%;
+    z-index: 10;
+}
+.textIconos1 {
+    position: absolute;
+    margin-top: 10%;
+    right: 50%;
+    width: 5%;
+    z-index: 10;
+}
+.textIconos2 {
+    position: absolute;
+    margin-top: 10%;
+    right: 39%;
+    width: 5%;
+    z-index: 10;
+}

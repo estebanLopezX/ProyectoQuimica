@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO QUIMICA</title>
+    <link rel="stylesheet" href="E-Style.css">
+</head>
+
+<body>
+    <header id="encabezado">
+        <h1>PROYECTO QUIMICA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Temperatura</a></li>
+                <li><a href="Estado.html">C.Estados</a></li>
+                <li><a href="Glosario.html">Glosario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="survey">
+        <h1 class="question">QUIZ</h1>
+
+        <form id="quizForm">
+            <!-- Preguntas de Farenheit a Celsius -->
+            <div class="question">
+                <label for="q1">1. ¿Cuántos grados Celsius son 98.6 grados Fahrenheit?</label>
+                <input type="text" id="q1">
+            </div>
+            <div class="question">
+                <label for="q2">2. ¿Cuántos grados Celsius son 32 grados Fahrenheit?</label>
+                <input type="text" id="q2">
+            </div>
+
+            <!-- Preguntas de Kelvin a Celsius -->
+            <div class="question">
+                <label for="q3">3. ¿Cuántos grados Celsius son 273.15 Kelvin?</label>
+                <input type="text" id="q3">
+            </div>
+            <div class="question">
+                <label for="q4">4. ¿Cuántos grados Celsius son 0 Kelvin?</label>
+                <input type="text" id="q4">
+            </div>
+            <div class="question">
+                <label for="q5">5. ¿Cuántos grados Celsius son 212 grados Fahrenheit?</label>
+                <input type="text" id="q5">
+            </div>
+
+            <!-- Preguntas sobre los cambios de estado -->
+            <div class="question">
+                <label for="q6">6. ¿Cuál es el cambio de estado de sólido a líquido?</label>
+                <input type="text" id="q6">
+            </div>
+            <div class="question">
+                <label for="q7">7. ¿Cuál es el cambio de estado de líquido a gas?</label>
+                <input type="text" id="q7">
+            </div>
+            <div class="question">
+                <label for="q8">8. ¿Cuál es el cambio de estado de gas a líquido?</label>
+                <input type="text" id="q8">
+            </div>
+            <div class="question">
+                <label for="q9">9. ¿Cuál es el cambio de estado de sólido a gas?</label>
+                <input type="text" id="q9">
+            </div>
+            <div class="question">
+                <label for="q10">10. ¿Cuál es el cambio de estado de gas a sólido?</label>
+                <input type="text" id="q10">
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Verificar Respuestas</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="cajaIconos">
+            <p class="textIconos">Temperatura</p>
+            <a href="index.html"> <img src="icono.temperatura.png" class="icono"></a>
+            <p class="textIconos1">C.Estado</p>
+            <a href="Estado.html"><img src="icono.cambios.png" class="icono"></a>
+            <p class="textIconos2">Glosario</p>
+            <a href="Glosario.html"><img src="icono.glosario.png" class="icono"></a>
+        </div>
+    </footer>
+
+    <script src="Encuesta.js"></script>
+</body>
+
+</html>

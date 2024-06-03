@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#encabezado {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ff6505f1;
+    padding: 10px 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+#encabezado h1 {
+    margin: 0;
+    color: white;
+}
+
+#encabezado nav {
+    display: inline-block;
+}
+
+#encabezado nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#encabezado nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#encabezado nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#encabezado nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 60%;
+    height: 8em;
+    margin-top: 6%; 
+    margin-left: 6%;
+    background-color: #f9f9f9;
+    padding: 1%;
+    text-align: justify;
+}
+
+.picture {
+    float: inline-end;
+    margin-right: 5%;
+    margin-top: -8%;
+    width: 40%;
+    height: 20%;
+    border-radius: 10%;
+}
+
+.conteiner {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.izquierdo {
+    width: 15%;
+    height: 20%;
+    background-color: blue;
+    margin: 2% 6% 0% 0%;
+    border-radius: 10%;
+}
+
+.derecho {
+    width: 60%;
+    height: 8em;
+    background-color: #f9f9f9;
+    padding: 1%;
+    text-align: justify;
+}
+
+.conteiner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.survey {
+    width: 80%;
+    height: 20%;
+    margin: 2% 15% 0% 5%;
+    background-color: #ffae0063;
+    padding: 2%;
+}
+
+.quiz {
+    text-decoration: none;
+    color:  #4CAF50;
+    
+}
+
+footer {
+    width: 100%;
+    height: 12em;
+    background-color: #ff6505f1;
+    margin-top: 2em;
+}
+
+
+.cajaIconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.icono {
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
+}
+
+.textIconos {
+    position: absolute;
+    margin-top: 10%;
+    right: 60%;
+    width: 5%;
+    z-index: 10;
+}
+.textIconos1 {
+    position: absolute;
+    margin-top: 10%;
+    right: 50%;
+    width: 5%;
+    z-index: 10;
+}
+.textIconos2 {
+    position: absolute;
+    margin-top: 10%;
+    right: 39%;
+    width: 5%;
+    z-index: 10;
+}
